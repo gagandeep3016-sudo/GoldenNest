@@ -351,10 +351,35 @@
 }
 .body_sec11{
     border: 2px solid gold;
-    padding-top:5px;
+    padding-top:9px;
     margin-top:60px;
-    margin-left:650px;
-    margin-right:650px;
-    border-radius:12px;
+    border-radius:50px;
     color:#D6B25E;
+    display:inline-block
+}
+.body_sec12{
+    color:white;
+    font-size:40px;
+    margin-top:24px;
+    font-weight:lighter;
+
+}
+.info{
+    text-align:center;
+}
+.info1{
+    margin-top:80px;
+    font-size:20px;
+    font-weight:lighter;
+    border:1px solid rgb(205, 176, 13);
+    display:inline-block;
+    padding:12px;
+    border-radius:50px;
+    background-color:rgb(236, 234, 234);
+    color:#b67112
+}
+.info2{
+    font-size:49px;
+    font-weight:lighter;
+    margin-top:10px;
 }
