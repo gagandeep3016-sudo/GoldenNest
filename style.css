@@ -697,6 +697,7 @@ margin-top:14px;
     font-size:19px;
     background: linear-gradient(to right, #D6B25E, #5A3B00);
     color:white;
+    text-decoration:none;
 }
 #btn_2{
     display:block;
