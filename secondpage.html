@@ -1,31 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style1.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="form_bg">
-    <div class="form_logo">
-        <img src="assets/photos/GoldenNest Enhanced Luxury Logo.png" class="form_img">
-        <h1 class="form_name">Golden<span style="color:gold">Nest<span></h1>
-    </div>
-    <div class="form_strt">
-        <form>
-            <h1 class="form_h">Get in Touch with <span class="form_hspan">GoldenNest</span></h1>
-            <p class="form_p">Let us help you find your dream property today</p>
-            <div class="form_line">
-                <div>
-                <label>Full Name</label>
-                <input placeholder="Enter your Full Name">
-                </div>
-
+    <div class="background">
+        <div class="heading_back">
+            <img src="assets/photos/Screenshot 2025-11-15 at 10.40.44 PM.png" class="heading_img">
+            <div>
+                <h1 class="heading_h1">GoldenNest</h1>
+                <p class="heading_p">A premium project by Aarambh Realty</p>
             </div>
-        </form>
+        </div>
+        <div class="form_back">
+            <div class="form_heading">
+                <h1 class="from_heading1">Get Your Personalized Property Match</h1>
+                <p class="form_p1">Share a few details and our experts will recommend the perfect home for you.</p>
+                <img src="assets/photos/Screenshot 2025-11-16 at 11.17.05 AM.png" class="heading_line">
+            </div>
+            <form>
+                <div class="line1_form">
+                    <div>
+                        <label class="label1" for="text">Full Name</label><br>
+                        <input placeholder="Enter you full name" type="text" id="text" name="text" required
+                            class="input1" min="3" max="30">
+                    </div>
+                    <div>
+                        <label class="label1" for="number">Phone Number</label><br>
+                        <input placeholder="+91" type="number" id="number" name="number" required class="input1">
+                    </div>
+                </div>
+                <div class="line1_form">
+                    <div>
+                        <label class="label1" for="email">Email Adress</label><br>
+                        <input placeholder="your.name@gmail.com" type="email" id="email" name="email" required
+                            class="input1">
+                    </div>
+                    <div>
+                        <label class="label1" for="option">Property Type</label><br>
+                        <select placeholder="Select your property type" id="option" name="option" required
+                            class="input1">
+                            <option>Apartment</option>
+                            <option>Villa</option>
+                            <option>Independent Floor</option>
+                            <option>Plot</option>
+                            <option>Commercial</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="line1_form">
+                    <div>
+                        <label class="label1" for="option2">Budget Range</label><br>
+                        <select placeholder="Select your Budget Range" id="option2" name="option2" required
+                            class="input1">
+                            <option>₹20-40 Lakhs</option>
+                            <option>₹40-70 Lakhs</option>
+                            <option>₹70-1.2 Cr</option>
+                            <option>₹1.2-2 Cr</option>
+                            <option>₹2+ Cr</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="label1" for="option3">Preferred Location</label><br>
+                        <select placeholder="Select your Preferred Location" id="option3" name="option3" required
+                            class="input1">
+                            <option>Noida</option>
+                            <option>Delhi</option>
+                            <option>Gurugram</option>
+                            <option>Hydrabad</option>
+                            <option>Pune</option>
+                            <option>Banglore</option>
+                            <option>Dubai</option>
+                        </select>
+                    </div>
+                </div>
+                <label class="form_amenity">Amenities Required</label>
+            </form>
 
-    </div>
+        </div>
     </div>
 </body>
+
 </html>
