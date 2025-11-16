@@ -1,8 +1,9 @@
 .background{
     background-color:rgb(255, 238, 209);
-    height:1000px;
+    height:1500px;
     z-index:1;
     padding-top:30px;
+    width:100%;
 }
 .heading_back{
     background-color:rgb(255, 249, 236);
@@ -58,7 +59,8 @@
     margin-top:10px;
 }
 .line1_form{
-    display:flex;margin-top:20px;
+    display:flex;
+    margin-top:20px;
 }
 .label1{
     margin-left:40px;
@@ -74,6 +76,112 @@
     border-radius:10px;
 }
 .form_amenity{
-    margin-left:40px;
+    margin-left:60px;
     color:rgb(118, 67, 0);
+    padding-top:30px;
+}
+.form_amenity1{
+    display:flex;
+}
+.border_checkbox{
+    border:1px solid gold;
+    display:inline-block;
+    margin-left:60px;
+    margin-top:20px;
+    border-radius:7px;
+   background-color:rgb(255, 255, 246);
+
+}
+#pool{
+    padding:15px 200px 10px 10px;
+}
+#Gym{
+    padding:15px 280px 10px 10px;
+}
+#house{
+    padding:15px 230px 10px 10px;
+}
+#parking{
+    padding:15px 220px 10px 10px;
+}
+#backup{
+    padding:15px 220px 10px 10px;
+}
+#security{
+    padding:15px 250px 10px 10px;
+}
+.border_checkbox:hover{
+    border:2px solid gold;
+}
+.form_timeline{
+    margin-left:60px;
+    color:rgb(118, 67, 0);
+    padding-top:30px;
+}
+.border_timeline{
+    border:1px solid gold;
+    display:inline-block;
+    margin-left:60px;
+    margin-top:20px;
+    border-radius:7px;
+   background-color:rgb(255, 255, 246);
+}
+.border_timeline:hover{
+    border:2px solid gold;
+}
+#immed{
+    padding:12px 450px 10px 5px;
+}
+#months{
+    padding:12px 440px 10px 5px;
+}
+#months2{
+    padding:12px 450px 10px 5px;
+}
+#months3{
+    padding:13px 460px 10px 5px;
+}
+.form_meaasge{
+    margin-left:60px;
+    margin-top:20px;
+    color:rgb(118, 67, 0);
+}
+.message-box{
+    width:1200px;
+    height:100px;
+    margin-left:60px;
+     border-radius:7px;
+   background-color:rgb(255, 255, 246);
+   border:1px solid gold;
+}
+.message-box:hover{
+    border:2px solid gold;
+}
+.form_footer{
+    text-align:center;
+    margin-top:60px;
+
+}
+.form_button{
+    padding:17px 45px 17px 46px;
+    border-radius:12px;
+    color:white;
+background: linear-gradient(to right, #F5BD1E, #D47805);
+    font-weight:bold;
+    border:0.5px solid orange;
+    transition: transform 0.3s ease;
+}
+.form_button:hover{
+    background: linear-gradient(to right, #fcbe13, #ae6000);
+    transform: translateY(-5px);
+}
+.form_footerp{
+    color:#ae6000;
+    font-weight:light;
+}
+.form_footerp1{
+     color:#ae6000;
+    font-weight:light;
+    margin-top:60px;
+    padding-bottom:50px;
 }
