@@ -773,3 +773,17 @@ background: linear-gradient(180deg, #4d2a00 0%, #6c3f00 100%);
     color:gray;
     margin-top:0px;
 }
+.aireview{
+    margin-left:640px;
+    border:1px solid white;
+    display:inline-block;
+    padding:7px 20px 7px 20px;
+    color:white;
+     background: linear-gradient(to right, #D6B25E, #5A3B00);
+     border-radius:5px;
+     font-size:20px;
+     cursor:pointer;
+}
+.aireview:hover{
+    color:#5A3B00;
+}

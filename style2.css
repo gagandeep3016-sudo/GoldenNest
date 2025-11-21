@@ -6,7 +6,7 @@
     background-position: center;
     text-align: center;
 }
-.back_h {
+.back_h{
     font-weight: lighter;
     font-size: 120px;
     color:goldenrod;
@@ -281,7 +281,6 @@
   color: #b7a176;
   border-radius: 24px;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
   box-shadow: 0 2px 8px rgba(200,180,126,0.08);
   z-index: 2;
   letter-spacing: 0.005em;
@@ -334,7 +333,7 @@
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 8px 40px 0 rgba(194,175,140,0.11), 0 1.5px 7px 0 rgba(198,175,127,0.13);
-  background: #252015; /* fallback */
+  background: #252015; 
 }
 
 .card-image-wrapper {
@@ -536,7 +535,6 @@
   right: 11px;
   background: #edda96;
   color: #977c2c;
-  font-family: 'Inter', sans-serif;
   font-size: 0.98rem;
   padding: 5px 17px;
   border-radius: 16px;
@@ -544,7 +542,6 @@
 
 .ai-style-name {
   text-align: center;
-  font-family: 'Playfair Display', serif;
   font-size: 1.15rem;
   color: #20253b;
   padding: 13px 0 13px 0;
@@ -578,7 +575,6 @@
 
 .journey-title {
   font-size: 3.1rem;
-  font-family: 'Playfair Display', serif;
   color: #23263b;
   margin-bottom: 0.25em;
   font-weight: 500;
@@ -586,7 +582,6 @@
 
 .journey-gold {
   color: #dec187;
-  font-family: 'Playfair Display', serif;
   font-size: 3.1rem;
   font-weight: 500;
   display: inline-block;
@@ -607,7 +602,6 @@
   background: linear-gradient(90deg, #dec187 0%, #c6af7f 100%);
   color: #fff;
   border: none;
-  font-family: 'Inter', sans-serif;
   padding: 17px 38px;
   border-radius: 32px;
   font-size: 1.21rem;
