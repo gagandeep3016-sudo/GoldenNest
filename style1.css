@@ -187,9 +187,6 @@ background: linear-gradient(to right, #F5BD1E, #D47805);
     padding-bottom:50px;
 }
 
-/* ========== RESPONSIVE DESIGN ========== */
-
-/* Tablet and below (max-width: 1024px) */
 @media (max-width: 1024px) {
     .background {
         height: auto;
@@ -263,7 +260,6 @@ background: linear-gradient(to right, #F5BD1E, #D47805);
     }
 }
 
-/* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
     .background {
         padding: 20px 10px;
@@ -372,7 +368,7 @@ background: linear-gradient(to right, #F5BD1E, #D47805);
     }
 }
 
-/* Small Mobile (max-width: 480px) */
+
 @media (max-width: 480px) {
     .heading_h1 {
         font-size: 20px;

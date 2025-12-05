@@ -634,10 +634,6 @@
 }
 
 
-
-/* ========== RESPONSIVE DESIGN ========== */
-
-/* Tablet and below (max-width: 1024px) */
 @media (max-width: 1024px) {
     .back_h {
         font-size: 80px;
@@ -717,7 +713,7 @@
     }
 }
 
-/* Mobile (max-width: 768px) */
+
 @media (max-width: 768px) {
     .first_back {
         padding: 30px 20px;

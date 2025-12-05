@@ -876,9 +876,6 @@ body {
   }
 }
 
-/* ========== RESPONSIVE DESIGN ========== */
-
-/* Tablet and below (max-width: 1024px) */
 @media (max-width: 1024px) {
     .theme {
         flex-wrap: wrap;
@@ -997,7 +994,6 @@ body {
     }
 }
 
-/* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
     .theme {
         flex-direction: column;
@@ -1202,8 +1198,6 @@ body {
         margin-left: 5%;
     }
 }
-
-/* Small Mobile (max-width: 480px) */
 @media (max-width: 480px) {
     .header_name {
         font-size: 20px;
