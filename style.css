@@ -367,6 +367,7 @@
     height:5px;
     width:90px;
     margin-top:0px;
+    background-color:transparent;
 }
 .body_sec2{
     display:flex;
@@ -393,6 +394,7 @@
     height:5px;
     width:80px;
     margin-top:0px;
+    background-color:transparent;
 }
 .body_sec22{
     font-weight:lighter;
@@ -427,6 +429,7 @@
     margin-top:6px;
     height:30px;
     width:250px;
+    background-color:#ffffff;
 }
 .info3{
     font-size:22px;
@@ -540,6 +543,7 @@ margin-top:14px;
     height:40px;
     width:200px;
     margin-top:3px;
+    background-color:#ffffff;
 }
 .commits_p2{
     color:gray;
@@ -578,6 +582,7 @@ margin-top:14px;
     margin-top:100px;
     margin-left:100px;
     height:40px;
+    background-color:#ffffff;
 }
 .client_reviews{
     text-align:center;
@@ -602,6 +607,7 @@ margin-top:14px;
     margin-top:8px;
     height:30px;
     width:200px;
+    background-color:#ffffff;
 }
 .client_review3{
     color:gray;

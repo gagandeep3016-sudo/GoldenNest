@@ -57,6 +57,7 @@
 .heading_line{
     width:460px;
     margin-top:10px;
+    background-color:#ffffff;
 }
 .line1_form{
     display:flex;
