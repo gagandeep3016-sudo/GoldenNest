@@ -1,4 +1,3 @@
-// Function 1: Validate Form
 function validateForm() {
     var name = document.getElementById('text').value;
     var phone = document.getElementById('number').value;
