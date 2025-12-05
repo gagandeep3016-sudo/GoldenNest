@@ -634,3 +634,442 @@
 }
 
 
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* Tablet and below (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .back_h {
+        font-size: 80px;
+    }
+    
+    .back_h1 {
+        font-size: 32px;
+    }
+    
+    .back_btn {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .back_btn1, .back_btn2 {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 80%;
+        max-width: 300px;
+    }
+    
+    .tour-options {
+        gap: 20px;
+    }
+    
+    .tour-option img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .gold-btn {
+        width: 80%;
+        max-width: 250px;
+        justify-content: center;
+    }
+    
+    .luxury-title {
+        font-size: 2.8rem;
+    }
+    
+    .split-container,
+    .before-image,
+    .after-image,
+    .before-image-wrapper,
+    .after-image-wrapper {
+        height: 350px;
+    }
+    
+    .cinematic-title {
+        font-size: 2.8rem;
+    }
+    
+    .tour-cards-row {
+        gap: 25px;
+    }
+    
+    .tour-card {
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .ai-main-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .ai-upload-card,
+    .ai-suggested-styles {
+        width: 90%;
+        max-width: 450px;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .first_back {
+        padding: 30px 20px;
+    }
+    
+    .back_h {
+        font-size: 50px;
+        padding: 0 20px;
+    }
+    
+    .back_h1 {
+        font-size: 24px;
+        padding: 0 20px;
+    }
+    
+    .back_btn1, .back_btn2 {
+        padding: 12px 30px;
+        font-size: 16px;
+        width: 90%;
+    }
+    
+    .virtual-tour {
+        padding: 30px 15px;
+    }
+    
+    .virtual-tour h2 {
+        font-size: 26px;
+    }
+    
+    .virtual-tour p {
+        font-size: 14px;
+    }
+    
+    .tour-options {
+        gap: 15px;
+    }
+    
+    .tour-option img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .tour-option span {
+        font-size: 13px;
+    }
+    
+    .villa-view-section {
+        padding: 30px 15px;
+    }
+    
+    .view-badge {
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+    
+    .gold-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+        width: 90%;
+    }
+    
+    .luxury-title {
+        font-size: 2rem;
+        padding: 0 20px;
+    }
+    
+    .luxury-subtitle {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    
+    .transformation-card {
+        padding: 20px 0;
+        max-width: 95%;
+    }
+    
+    .split-container,
+    .before-image,
+    .after-image,
+    .before-image-wrapper,
+    .after-image-wrapper {
+        height: 280px;
+    }
+    
+    .before-label,
+    .after-label {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+        top: 15px;
+    }
+    
+    .before-label {
+        left: 15px;
+    }
+    
+    .after-label {
+        right: 15px;
+    }
+    
+    .diamond {
+        width: 30px;
+        height: 30px;
+        left: -15px;
+        border-width: 4px;
+    }
+    
+    .cinematic-title {
+        font-size: 2rem;
+        padding: 0 20px;
+    }
+    
+    .cinematic-subtitle {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    
+    .tour-cards-row {
+        gap: 20px;
+    }
+    
+    .tour-card {
+        width: 95%;
+    }
+    
+    .card-title {
+        font-size: 1.6rem;
+    }
+    
+    .card-main-tag {
+        font-size: 0.95rem;
+        padding: 6px 18px;
+    }
+    
+    .card-tag {
+        font-size: 0.9rem;
+        padding: 6px 14px;
+    }
+    
+    .ai-title {
+        font-size: 2.2rem;
+        padding: 0 20px;
+    }
+    
+    .ai-subtitle {
+        font-size: 0.95rem;
+        padding: 0 20px;
+    }
+    
+    .ai-badge {
+        font-size: 0.95rem;
+        padding: 5px 20px;
+    }
+    
+    .ai-upload-card {
+        width: 95%;
+        padding: 35px 10px 25px 10px;
+    }
+    
+    .ai-suggested-styles {
+        width: 95%;
+    }
+    
+    .ai-upload-title {
+        font-size: 1.2rem;
+    }
+    
+    .ai-upload-desc {
+        font-size: 0.9rem;
+    }
+    
+    .ai-styles-title {
+        font-size: 1.1rem;
+    }
+    
+    .ai-style-name {
+        font-size: 1rem;
+    }
+    
+    .journey-title {
+        font-size: 2.2rem;
+        padding: 0 20px;
+    }
+    
+    .journey-gold {
+        font-size: 2.2rem;
+    }
+    
+    .journey-subtitle {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    
+    .journey-btn {
+        padding: 14px 30px;
+        font-size: 1.1rem;
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .back_h {
+        font-size: 36px;
+    }
+    
+    .back_h1 {
+        font-size: 18px;
+    }
+    
+    .back_btn1, .back_btn2 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .virtual-tour h2 {
+        font-size: 22px;
+    }
+    
+    .tour-option img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .tour-option span {
+        font-size: 12px;
+    }
+    
+    .gold-btn {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+    
+    .luxury-title {
+        font-size: 1.6rem;
+    }
+    
+    .luxury-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .split-container,
+    .before-image,
+    .after-image,
+    .before-image-wrapper,
+    .after-image-wrapper {
+        height: 220px;
+    }
+    
+    .before-label,
+    .after-label {
+        font-size: 0.75rem;
+        padding: 5px 10px;
+    }
+    
+    .cinematic-title {
+        font-size: 1.6rem;
+    }
+    
+    .cinematic-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .card-title {
+        font-size: 1.3rem;
+    }
+    
+    .card-main-tag {
+        font-size: 0.85rem;
+        padding: 5px 15px;
+    }
+    
+    .card-tag {
+        font-size: 0.8rem;
+        padding: 5px 12px;
+    }
+    
+    .ai-title {
+        font-size: 1.8rem;
+    }
+    
+    .ai-subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .ai-upload-title {
+        font-size: 1.1rem;
+    }
+    
+    .ai-upload-desc,
+    .ai-coming-soon {
+        font-size: 0.85rem;
+    }
+    
+    .ai-styles-title {
+        font-size: 1rem;
+    }
+    
+    .ai-style-name {
+        font-size: 0.95rem;
+    }
+    
+    .ai-generated-badge {
+        font-size: 0.85rem;
+        padding: 4px 12px;
+    }
+    
+    .journey-title {
+        font-size: 1.8rem;
+    }
+    
+    .journey-gold {
+        font-size: 1.8rem;
+    }
+    
+    .journey-subtitle {
+        font-size: 0.95rem;
+    }
+    
+    .journey-btn {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+    
+    .journey-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Extra Small Mobile (max-width: 360px) */
+@media (max-width: 360px) {
+    .back_h {
+        font-size: 28px;
+    }
+    
+    .split-container,
+    .before-image,
+    .after-image,
+    .before-image-wrapper,
+    .after-image-wrapper {
+        height: 180px;
+    }
+    
+    .luxury-title,
+    .cinematic-title,
+    .ai-title,
+    .journey-title {
+        font-size: 1.4rem;
+    }
+    
+    .journey-gold {
+        font-size: 1.4rem;
+    }
+}

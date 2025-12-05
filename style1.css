@@ -185,3 +185,230 @@ background: linear-gradient(to right, #F5BD1E, #D47805);
     margin-top:60px;
     padding-bottom:50px;
 }
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* Tablet and below (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .background {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .heading_back {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .heading_h1 {
+        font-size: 28px;
+    }
+    
+    .form_back {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .from_heading1 {
+        font-size: 36px;
+        padding: 20px;
+    }
+    
+    .line1_form {
+        flex-direction: column;
+    }
+    
+    .input1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .label1 {
+        margin-left: 5%;
+    }
+    
+    .form_amenity1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #pool, #Gym, #house, #parking, #backup, #security {
+        width: 90%;
+        padding: 15px;
+        margin-left: 0;
+    }
+    
+    .form_timeline1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #immed, #months, #months2, #months3 {
+        width: 90%;
+        padding: 12px;
+        margin-left: 0;
+    }
+    
+    .message-box {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .form_button {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .background {
+        padding: 20px 10px;
+    }
+    
+    .heading_back {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    
+    .heading_img {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    
+    .heading_h1 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    
+    .heading_p {
+        margin-left: 0;
+    }
+    
+    .form_back {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 20px 10px;
+    }
+    
+    .from_heading1 {
+        font-size: 28px;
+        padding: 15px 10px;
+    }
+    
+    .heading_line {
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    .line1_form {
+        margin-top: 15px;
+    }
+    
+    .input1 {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 8px;
+    }
+    
+    .label1 {
+        margin-left: 2.5%;
+    }
+    
+    .form_amenity {
+        margin-left: 2.5%;
+    }
+    
+    .form_amenity1 {
+        width: 100%;
+    }
+    
+    #pool, #Gym, #house, #parking, #backup, #security {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 12px;
+        text-align: left;
+    }
+    
+    .form_timeline {
+        margin-left: 2.5%;
+    }
+    
+    .form_timeline1 {
+        width: 100%;
+    }
+    
+    #immed, #months, #months2, #months3 {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 10px;
+    }
+    
+    .form_meaasge {
+        margin-left: 2.5%;
+    }
+    
+    .message-box {
+        width: 95%;
+        margin-left: 2.5%;
+        height: 120px;
+    }
+    
+    .form_button {
+        padding: 14px 25px;
+        font-size: 15px;
+        width: 90%;
+        max-width: 350px;
+    }
+    
+    .form_footerp, .form_footerp1 {
+        padding: 0 15px;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .heading_h1 {
+        font-size: 20px;
+    }
+    
+    .heading_p {
+        font-size: 14px;
+    }
+    
+    .from_heading1 {
+        font-size: 22px;
+    }
+    
+    .form_p1 {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    
+    .input1 {
+        height: 38px;
+        font-size: 14px;
+    }
+    
+    .label1 {
+        font-size: 14px;
+    }
+    
+    .form_button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    
+    #pool, #Gym, #house, #parking, #backup, #security {
+        font-size: 14px;
+    }
+    
+    #immed, #months, #months2, #months3 {
+        font-size: 14px;
+    }
+}

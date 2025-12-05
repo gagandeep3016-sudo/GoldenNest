@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style1.css">
+    <script src="secondpage.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -57,7 +58,7 @@
                     <div>
                         <label class="label1" for="option2">Budget Range</label><br>
                         <select placeholder="Select your Budget Range" id="option2" name="option2" required
-                            class="input1">
+                            class="input1" onchange="showBudgetInfo()">
                             <option>₹20-40 Lakhs</option>
                             <option>₹40-70 Lakhs</option>
                             <option>₹70-1.2 Cr</option>
@@ -79,7 +80,8 @@
                         </select>
                     </div>
                 </div><br><br>
-                <label class="form_amenity">Amenities Required</label><br>
+                <label class="form_amenity">Amenities Required</label>
+                <button onclick="countAmenities()" style="margin-left:20px; padding:5px 15px; background:#D6B25E; color:white; border:none; border-radius:5px; cursor:pointer;">Count Selected</button><br>
                 <div class="form_amenity1">
                     <div class="border_checkbox" id="pool">
                         <input type="checkbox" name="amenity" id="amenity" required>
@@ -136,7 +138,7 @@
                 </textarea>
             </form>
             <div class="form_footer">
-                <button class="form_button">Get my Property Recommendations</button>
+                <button class="form_button" onclick="validateForm()">Get my Property Recommendations</button>
                 <p class="form_footerp">Your information is secure with GoldenNest. We don't spam.</p>
                 <p class="form_footerp1">© 2025 GoldenNest Realty — All Rights Reserved</p>
             </div>
